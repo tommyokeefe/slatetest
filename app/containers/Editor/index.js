@@ -9,22 +9,43 @@ class Editor extends React.Component {
 
     constructor(props) {
         super(props);
-        this.onChange = this.onChange.bind(this);
+        this.onEditorChange = this.onEditorChange.bind(this);
+        this.onAssetCreated = this.onAssetCreated.bind(this);
     }
 
-    onChange(editorState) {
-        // console.group();
-        // console.log('editor state changed');
-        // console.dir(editorState);
+    onEditorChange(editorState) {
         this.props.dispatch(Actions.editorStateChanged(editorState));
     }
 
+    onAssetCreated() {
+        this.props.dispatch(Actions.assetCreated(this.props.editor.editorState));
+    }
+
     render() {
+        const outerWrapperStyle = {
+            width: 400,
+            margin: '20px auto',
+        };
+        const editorWrapperStyle = {
+            minHeight: 400,
+            border: '1px black solid',
+            padding: '5px',
+        };
+        const buttonStyle = {
+            padding: 10,
+            margin: '10px auto',
+            border: '1px black solid',
+        };
         return (
-            <EditorWrapper
-                editorState={this.props.editor.editorState}
-                onChange={this.onChange}
-            />
+            <div style={outerWrapperStyle}>
+                <div style={editorWrapperStyle}>
+                    <EditorWrapper
+                        editorState={this.props.editor.editorState}
+                        onChange={this.onEditorChange}
+                    />
+                </div>
+                <button style={buttonStyle} onClick={this.onAssetCreated}>Add custom asset</button>
+            </div>
         );
     }
 }
