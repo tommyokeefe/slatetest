@@ -19,10 +19,6 @@ class Editor extends React.Component {
     return null;
   }
 
-  // onAssetCreated() {
-  //   this.props.dispatch(Actions.assetCreated());
-  // }
-
   onAssetDropped(event, data, state, editor) {
     event.preventDefault();
     console.log(event);

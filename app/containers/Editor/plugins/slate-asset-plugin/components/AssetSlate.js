@@ -8,10 +8,6 @@ export default class Asset extends React.Component {
   }
 
   render() {
-    // console.log(this.props);
-    // const { block } = this.props;
-    // const oldNode = this.props.node;
-    // const node = oldNode.merge({ parentKey: this.props.parent.key });
     const node = { parentKey: this.props.parent.key, key: this.props.node.key };
     const style = {
       border: '1px solid black',

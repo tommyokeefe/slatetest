@@ -6,7 +6,6 @@
 import { combineReducers } from 'redux-immutable';
 
 import editor from 'containers/Editor/reducerSlate';
-import assetReducer from 'containers/Editor/plugins/slate-asset-plugin/reducers/reducer';
 
 /**
  * Creates the main reducer with the asynchronously loaded ones

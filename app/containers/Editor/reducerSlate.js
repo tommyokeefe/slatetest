@@ -1,14 +1,3 @@
-// import {
-//     EditorState,
-//     Modifier,
-//     SelectionState,
-//     Entity,
-//     CharacterMetadata,
-//     ContentBlock,
-//     genKey,
-//     BlockMapBuilder,
-// } from 'draft-js';
-
 import * as Actions from './actions';
 import * as AssetActions from './plugins/slate-asset-plugin/actions/actions';
 
@@ -44,7 +33,6 @@ const initialState = Raw.deserialize({
 }, { terse: true });
 
 export default function editor(passedState, action) {
-  // console.log(state);
   let state = passedState;
   if (!passedState) {
     state = {
@@ -56,7 +44,6 @@ export default function editor(passedState, action) {
 
   switch (action.type) {
     case Actions.EDITOR_STATE_CHANGED:
-    console.log('hell');
       return {
         ...state,
         state: action.payload.state,
@@ -76,22 +63,22 @@ export default function editor(passedState, action) {
       // const fudge = state.state.transform().undo().apply();
       // const newState = fudge.transform().setBlock('hell').apply();
 
-      // const newKey = state.state.selection.anchorKey;
+      const newKey = state.state.selection.anchorKey;
       // console.log(payloadData);
 
-      // const newState = state.state.transform()
-        // .moveNodeByKey(action.payload.key, action.payload.parentKey, newKey).apply();
+      const newState = state.state.transform()
+        .moveNodeByKey(action.payload.key, action.payload.parentKey, newKey).apply();
 
 
       // const newState = state.state.transform().insertBlock(payloadData).apply();
       // const newState2 = newState.transform()
       // const fudge = newerState.transform().undo().apply();
-      const newerState = state.state.transform().removeNodeByKey(action.payload.key).apply();
+      // const newState = state.state.transform().removeNodeByKey(action.payload.key).apply();
 
 
       return {
         ...state,
-        state: newerState,
+        state: newState,
       };
 
     default:
