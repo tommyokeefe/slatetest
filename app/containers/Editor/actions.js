@@ -1,16 +1,16 @@
 export const EDITOR_STATE_CHANGED = 'EDITOR_STATE_CHANGED';
-export const ASSET_CREATED = 'ASSET_CREATED';
+export const ASSET_DROPPED = 'ASSET_DROPPED';
 
-export function editorStateChanged(editorState) {
-    return {
-        type: EDITOR_STATE_CHANGED,
-        payload: { editorState },
-    }
+export function editorStateChanged(state) {
+  return {
+    type: EDITOR_STATE_CHANGED,
+    payload: { state },
+  };
 }
 
-export function assetCreated(editorState) {
-    return {
-        type: ASSET_CREATED,
-        payload: { editorState },
-    }
+export function assetDropped(key, parentKey) {
+  return {
+    type: ASSET_DROPPED,
+    payload: { key, parentKey },
+  };
 }

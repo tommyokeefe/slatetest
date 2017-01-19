@@ -8,30 +8,37 @@ import 'draft-js-inline-toolbar-plugin/lib/plugin.css'; // eslint-disable-line i
 
 import createAssetPlugin from '../containers/Editor/plugins/asset-plugin';
 
+import createBlockDndPlugin from 'draft-js-drag-n-drop-plugin-canopy';
+
 const assetPlugin = createAssetPlugin();
+const dndPlugin = createBlockDndPlugin();
 
 const inlineToolbarPlugin = createInlineToolbarPlugin();
 const { InlineToolbar } = inlineToolbarPlugin;
 
 export default class EditorWrapper extends React.Component {
 
-    constructor(props) {
-        super(props);
-    }
+  constructor(props) {
+    super(props);
+  }
 
-    render() {
-        return (
-            <div>
-                <Editor
-                    editorState={this.props.editorState}
-                    onChange={this.props.onChange}
-                    plugins={[
-                        assetPlugin,
-                        inlineToolbarPlugin,
-                    ]}
-                />
-                <InlineToolbar/>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div
+        className="pickle"
+        onDrop={this.props.assetDropped}
+      >
+        <Editor
+          editorState={this.props.editorState}
+          onChange={this.props.onChange}
+          plugins={[
+            assetPlugin,
+            inlineToolbarPlugin,
+            dndPlugin,
+          ]}
+        />
+        <InlineToolbar />
+      </div>
+    );
+  }
 }

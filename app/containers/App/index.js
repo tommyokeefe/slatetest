@@ -16,17 +16,36 @@ import React from 'react';
 import Editor from '../Editor';
 
 
-export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+// export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
-    static propTypes = {
-        children: React.PropTypes.node,
-    };
+//   static propTypes = {
+//     children: React.PropTypes.node,
+//   };
 
-    render() {
-        return (
-            <div>
-                <Editor/>
-            </div>
-        );
-    }
+//   render() {
+//     return (
+//       <div>
+//         <Editor />
+//       </div>
+//     );
+//   }
+// }
+
+// import { Editor, Raw } from 'slate';
+
+
+export default class App extends React.Component {
+
+  static propTypes = {
+    children: React.PropTypes.node,
+  };
+
+  render = () => {
+    return (
+      <div>
+        <Editor />
+      </div>
+    );
+  }
+
 }
