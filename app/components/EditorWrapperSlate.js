@@ -4,11 +4,6 @@ import { Editor } from 'slate';
 
 import createAssetPlugin from '../containers/Editor/plugins/slate-asset-plugin';
 
-const onDropDead = (event) => {
-  event.preventDefault();
-  return null;
-};
-
 export default class EditorWrapper extends React.Component {
 
   constructor(props) {
@@ -22,7 +17,7 @@ export default class EditorWrapper extends React.Component {
     return (
       <div
         className="pickle"
-        onDrop={this.props.onDropping}
+        onDrop={this.props.onDrop}
       >
         <Editor
           state={this.props.state.state}
@@ -30,8 +25,6 @@ export default class EditorWrapper extends React.Component {
           plugins={this.plugins}
           onChange={this.props.onChange}
           contentEditable={true}
-          onDrop={onDropDead}
-          onDragEnd={onDropDead}
         />
       </div>
     );

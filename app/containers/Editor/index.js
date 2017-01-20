@@ -10,20 +10,11 @@ class Editor extends React.Component {
   constructor(props) {
     super(props);
     this.onEditorChange = this.onEditorChange.bind(this);
-    this.onAssetDropped = this.onAssetDropped.bind(this);
   }
 
   onEditorChange(state) {
-    console.log(state.document.nodes);
     this.props.dispatch(Actions.editorStateChanged(state));
     return null;
-  }
-
-  onAssetDropped(event, data, state, editor) {
-    event.preventDefault();
-    console.log(event);
-    const node = JSON.parse(event.dataTransfer.getData('text'));
-    this.props.dispatch(Actions.assetDropped(node.key, node.parentKey));
   }
 
   render() {
@@ -50,7 +41,6 @@ class Editor extends React.Component {
             state={this.props.editor}
             onChange={this.onEditorChange}
             dispatch={this.props.dispatch}
-            onDropping={this.onAssetDropped}
           />
         </div>
       </div>

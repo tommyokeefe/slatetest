@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Asset extends React.Component {
+export default class InnerAsset extends React.Component {
 
   constructor(props){
     super(props);
@@ -10,7 +10,7 @@ export default class Asset extends React.Component {
   render() {
     const style = {
       border: '1px solid black',
-      padding: '10px',
+      padding: 5,
       margin: '5px auto'
     };
 
@@ -21,13 +21,12 @@ export default class Asset extends React.Component {
 
     return (
       <div
-        contentEditable={true}
+        contentEditable={false}
         onDragStart={start}
         draggable="true"
         style={style}
-        {...this.props.attributes}
       >
-        {this.props.children}
+        {this.randomNum}
       </div>
     );
   }
