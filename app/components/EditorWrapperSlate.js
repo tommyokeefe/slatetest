@@ -1,8 +1,12 @@
 import React from 'react';
-
 import { Editor } from 'slate';
+import RichTextMenu, { getRichTextSchema, createRichTextPlugin } from '@npr/slate-rich-text-toolbar-plugin';
+import '@npr/slate-rich-text-toolbar-plugin/dist/RichTextToolbar.css';
 
+import { storytextPrimary } from '../utils/richTextMenuConfig';
 import createAssetPlugin from '../containers/Editor/plugins/slate-asset-plugin';
+import serialzer from '../utils/slateSerializer';
+
 
 export default class EditorWrapper extends React.Component {
 
@@ -10,6 +14,7 @@ export default class EditorWrapper extends React.Component {
     super(props);
     this.plugins = [
       createAssetPlugin(props),
+      createRichTextPlugin(serialzer.deserialize),
     ];
   }
 
@@ -21,10 +26,15 @@ export default class EditorWrapper extends React.Component {
       >
         <Editor
           state={this.props.state.state}
-          schema={this.props.state.schema}
+          schema={getRichTextSchema()}
           plugins={this.plugins}
           onChange={this.props.onChange}
-          contentEditable={true}
+        />
+        <RichTextMenu
+          editorState={this.props.state.state}
+          onEditorChange={this.props.onChange}
+          primaryButtons={storytextPrimary}
+          editorElement={this.editorElement}
         />
       </div>
     );

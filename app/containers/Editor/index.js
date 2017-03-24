@@ -20,18 +20,14 @@ class Editor extends React.Component {
   render() {
     const outerWrapperStyle = {
       width: 400,
-      margin: '20px auto',
+      margin: '100px auto',
     };
     const editorWrapperStyle = {
       minHeight: 400,
       border: '1px black solid',
       padding: '5px',
     };
-    const buttonStyle = {
-      padding: 10,
-      margin: '10px auto',
-      border: '1px black solid',
-    };
+
     return (
       <div
         style={outerWrapperStyle}

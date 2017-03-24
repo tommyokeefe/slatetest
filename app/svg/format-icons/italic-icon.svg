@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>italic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Seamus-Visual-Working" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="seamus-styles" transform="translate(-451.000000, -485.000000)">
+            <g id="format-menu-copy" transform="translate(407.000000, 470.000000)">
+                <g id="italic" transform="translate(44.000000, 15.000000)">
+                    <path d="M0.91666,12.1709457 L1.00084237,11.3469118 L2.22799826,11.2291934 C2.46343506,11.2127677 2.49697109,11.1456957 2.53051219,10.8931435 L3.87538648,1.27780223 C3.9089225,1.02525511 3.8924968,0.958183058 3.65706,0.941072736 L2.48055046,0.823349264 L2.58115854,0 L7.08666008,0 L6.98536738,0.823349264 L5.70824976,0.958177986 C5.45570264,0.991714013 5.43859232,1.02525004 5.40505629,1.27779716 L4.04375123,10.8767178 C4.0102152,11.1456957 4.0102152,11.1792317 4.26207771,11.2127677 L5.50634391,11.3469118 L5.42216154,12.1709457 L0.91666,12.1709457 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

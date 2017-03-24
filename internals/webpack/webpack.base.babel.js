@@ -17,18 +17,26 @@ module.exports = (options) => ({
       loader: 'babel',
       exclude: /node_modules/,
       query: options.babelQuery,
+    },{
+        test: /\.css$/,
+        include: path.resolve(__dirname, "../..", "app"),
+        loader: 'style-loader!css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]'
     }, {
-      // Do not transform vendor's CSS with CSS-modules
-      // The point is that they remain in global scope.
-      // Since we require these CSS files in our JS or CSS files,
-      // they will be a part of our compilation either way.
-      // So, no need for ExtractTextPlugin here.
-      test: /\.css$/,
-      include: /node_modules/,
-      loaders: ['style-loader', 'css-loader'],
+        // Do not transform vendor's CSS with CSS-modules
+        // The point is that they remain in global scope.
+        // Since we require these CSS files in our JS or CSS files,
+        // they will be a part of our compilation either way.
+        // So, no need for ExtractTextPlugin here.
+        test: /\.css$/,
+        include: /node_modules/,
+        loaders: ['style-loader', 'css-loader'],
     }, {
-      test: /\.(eot|svg|ttf|woff|woff2)$/,
+      test: /\.(eot|ttf|woff|woff2)$/,
       loader: 'file-loader',
+    }, {
+      test: /\.svg$/,
+      include: path.resolve(__dirname, '../..', 'app', 'svg'),
+      loader: 'svg-sprite-loader!svgo-loader',
     }, {
       test: /\.(jpg|png|gif)$/,
       loaders: [

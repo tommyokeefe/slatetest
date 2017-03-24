@@ -1,0 +1,17 @@
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>edit-icon-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Seamus-Visual-Working" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="seamus-features-v3" transform="translate(-90.000000, -1346.000000)">
+            <g id="edit" transform="translate(50.000000, 1339.000000)">
+                <g id="edit-icon-white" transform="translate(40.000000, 7.000000)">
+                    <path d="M1.10833333,9.50833333 L0.583333333,12.1333333 C0.525,12.3083333 0.583333333,12.5416667 0.758333333,12.6583333 C0.875,12.775 0.991666667,12.8333333 1.16666667,12.8333333 L1.28333333,12.8333333 L3.90833333,12.3083333 L1.10833333,9.50833333 Z" id="Shape"></path>
+                    <rect id="Rectangle-path" transform="translate(6.437174, 7.020624) rotate(-45.000000) translate(-6.437174, -7.020624) " x="2.06221571" y="4.77481195" width="8.74991609" height="4.49162359"></rect>
+                    <path d="M13.2416667,2.50833333 L10.9083333,0.175 C10.675,-0.0583333333 10.325,-0.0583333333 10.0916667,0.175 L8.75,1.51666667 L11.9,4.66666667 L13.2416667,3.325 C13.475,3.09166667 13.475,2.74166667 13.2416667,2.50833333 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

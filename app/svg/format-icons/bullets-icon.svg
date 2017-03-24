@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="13px" viewBox="0 0 15 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>bullets</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Seamus-Visual-Working" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="seamus-styles" transform="translate(-474.000000, -485.000000)">
+            <g id="format-menu-copy" transform="translate(407.000000, 470.000000)">
+                <g id="bullets" transform="translate(67.000000, 15.000000)">
+                    <circle id="Oval" cx="1.25" cy="1.25" r="1.25"></circle>
+                    <circle id="Oval" cx="1.25" cy="6.25" r="1.25"></circle>
+                    <circle id="Oval" cx="1.25" cy="11.25" r="1.25"></circle>
+                    <path d="M14.375,1.875 L5,1.875 C4.65484375,1.875 4.375,1.59515625 4.375,1.25 C4.375,0.90484375 4.65484375,0.625 5,0.625 L14.375,0.625 C14.7201563,0.625 15,0.90484375 15,1.25 C15,1.59515625 14.7201563,1.875 14.375,1.875 Z" id="Shape"></path>
+                    <path d="M14.375,6.875 L5,6.875 C4.65484375,6.875 4.375,6.59515625 4.375,6.25 C4.375,5.90484375 4.65484375,5.625 5,5.625 L14.375,5.625 C14.7201563,5.625 15,5.90484375 15,6.25 C15,6.59515625 14.7201563,6.875 14.375,6.875 Z" id="Shape"></path>
+                    <path d="M14.375,11.875 L5,11.875 C4.65484375,11.875 4.375,11.5954562 4.375,11.25 C4.375,10.9045438 4.65484375,10.625 5,10.625 L14.375,10.625 C14.7201563,10.625 15,10.9045438 15,11.25 C15,11.5954562 14.7201563,11.875 14.375,11.875 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

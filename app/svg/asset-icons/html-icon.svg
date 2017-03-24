@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>html-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1">
+        <g id="asset-picker" transform="translate(-113.000000, -15.000000)">
+            <g id="html-icon" transform="translate(113.000000, 15.000000)">
+                <path d="M3,2.25 L3,0 L0.75,0 C0.33525,0 0,0.33525 0,0.75 L0,2.25 L3,2.25 Z" id="Shape"></path>
+                <path d="M18,2.25 L18,0.75 C18,0.33525 17.66475,0 17.25,0 L4.5,0 L4.5,2.25 L18,2.25 Z" id="Shape"></path>
+                <path d="M0,3.75 L0,15.75 C0,16.16475 0.33525,16.5 0.75,16.5 L17.25,16.5 C17.66475,16.5 18,16.16475 18,15.75 L18,3.75 L0,3.75 Z M6.3105,11.25 L5.25,12.3105 L3.21975,10.28025 C2.9265,9.987 2.9265,9.513 3.21975,9.21975 L5.25,7.1895 L6.3105,8.25 L4.8105,9.75 L6.3105,11.25 Z M8.796,13.65975 L7.341,13.296 L9.20475,5.841 L10.65975,6.20475 L8.796,13.65975 Z M14.78025,10.28025 L12.75,12.3105 L11.6895,11.25 L13.1895,9.75 L11.6895,8.25 L12.75,7.1895 L14.78025,9.21975 C15.0735,9.513 15.0735,9.987 14.78025,10.28025 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>import-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1">
+        <g id="asset-picker" transform="translate(-171.000000, -173.000000)">
+            <g id="import-icon" transform="translate(171.000000, 173.000000)">
+                <path d="M17.25,15 L0.75,15 C0.33525,15 0,14.66475 0,14.25 L0,0.75 C0,0.33525 0.33525,0 0.75,0 L6.75,0 L6.75,1.5 L1.5,1.5 L1.5,13.5 L16.5,13.5 L16.5,1.5 L11.25,1.5 L11.25,0 L17.25,0 C17.66475,0 18,0.33525 18,0.75 L18,14.25 C18,14.66475 17.66475,15 17.25,15 Z" id="Shape"></path>
+                <polygon id="Shape" points="9.75 6.75 9.75 0 8.25 0 8.25 6.75 4.5 6.75 9 12 13.5 6.75"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

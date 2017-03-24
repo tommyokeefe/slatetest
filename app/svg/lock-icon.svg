@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Locking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="seamus-locking-v4" transform="translate(-154.000000, -701.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M162.5,705 L161.5,705 L161.5,704 C161.5,702.3455 160.1545,701 158.5,701 C156.8455,701 155.5,702.3455 155.5,704 L155.5,705 L154.5,705 C154.224,705 154,705.224 154,705.5 L154,712.5 C154,712.776 154.224,713 154.5,713 L162.5,713 C162.776,713 163,712.776 163,712.5 L163,705.5 C163,705.224 162.776,705 162.5,705 Z M159,709.908 L159,711 L158,711 L158,709.908 C157.4195,709.701 157,709.151 157,708.5 C157,707.673 157.673,707 158.5,707 C159.327,707 160,707.673 160,708.5 C160,709.151 159.581,709.701 159,709.908 Z M160.5,705 L156.5,705 L156.5,704 C156.5,702.897 157.397,702 158.5,702 C159.603,702 160.5,702.897 160.5,704 L160.5,705 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

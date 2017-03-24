@@ -14,17 +14,7 @@ const initialState = Raw.deserialize({
       nodes: [
         {
           kind: 'text',
-          text: 'write me',
-        },
-      ],
-    },
-    {
-      kind: 'block',
-      type: 'paragraph',
-      nodes: [
-        {
-          kind: 'text',
-          text: 'write me',
+          text: 'type here...',
         },
       ],
     },

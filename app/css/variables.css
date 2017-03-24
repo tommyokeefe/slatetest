@@ -1,0 +1,30 @@
+:root {
+    --main-width: 1025px;
+
+    --primary-control-color: #0079D0;
+    --accent-color: #CE0000;
+    --green: #478500;
+    --silver: #C0C0C0;
+    --heavier-gray: #2F2F2F;
+    --heavy-gray: #414141;
+    --medium-gray: #6D6D6D;
+    --light-gray: #ADADAD;
+    --lighter-gray: #E1E1E1;
+    --lightest-gray: #F9F9F9;
+    --white: #fff;
+
+    --font-stack-gotham: 'Gotham SSm', Helvetica, Arial, sans-serif;
+    --font-stack-serif: Georgia, Times, Times New Roman, serif;
+    --font-stack-open-sans: 'open_sans', Helvetica, Arial, sans-serif;
+    --font-stack-sans-serif: Helvetica, arial, sans-serif;
+
+    --font-size-level-one: 24px;
+    --font-size-level-two: 19px;
+    --font-size-level-three: 16px;
+    --font-size-level-four: 13px;
+    --font-size-level-five: 11px;
+    --font-size-story-text: 17px;
+
+    --standard-letter-spacing: .2px;
+    --story-text-gutter: 36px;
+}

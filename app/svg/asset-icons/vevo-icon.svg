@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>vevo-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1">
+        <g id="asset-picker" transform="translate(-248.000000, -55.000000)">
+            <g id="vevo-icon" transform="translate(248.000000, 55.000000)">
+                <path d="M9.20243902,0 C7.38422764,0 7.03780488,1.06300813 6.49601626,1.8403252 C6.49593496,1.84081301 5.02130081,4.07178862 4.4597561,4.92146341 L3.2495935,0 L0,0 L2.04943089,8.24260163 C2.47373984,9.71528455 3.68073171,9.62130081 3.68073171,9.62130081 C4.50747967,9.62130081 5.12642276,9.18642276 5.68878049,8.36268293 L11.2169106,0 L9.20243902,0" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
